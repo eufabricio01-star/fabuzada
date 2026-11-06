@@ -1,0 +1,1 @@
+module.exports={apps:[{name:'fabuzada-api',script:'src/index.js',cwd:__dirname+'/backend',env:{NODE_ENV:'production'},max_memory_restart:'350M'},{name:'fabuzada-web',script:'node_modules/next/dist/bin/next',args:'start -p 3000',cwd:__dirname+'/frontend',env:{NODE_ENV:'production'},max_memory_restart:'700M'}]};
